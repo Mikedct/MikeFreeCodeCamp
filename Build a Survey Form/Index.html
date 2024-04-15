@@ -1,0 +1,69 @@
+<DOCTYPE html="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>Programmers!</h1>
+    <p id="description">Tools Programmers</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="personal data"><br><br>
+            <fieldset>
+                <label id="name-label"><b>Name:</b></label>
+                <input id="name" type="name" name="name" class="form" required placeholder="Enter your name"><br>
+                <br>
+                <label id="email-label"><b>Email:</b></label>
+                <input id="email" type="email" name="email" class="form" required placeholder="Enter your email (example@mail.com)"><br>
+                <br>
+                <label id="number-label"><b>Age:</b></label>
+                <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="Enter your age">
+            </fieldset>
+        </div>
+        <div id="dropdown-div"><br><br>
+            <label id="dropdown-label">what is your college major?</label><br>
+            <select id="dropdown" name="major" class="form">
+            <option value="Computer-Science">Computer Science</option>
+            <option value="Software-Engineering">Software Engineering</option>
+            <option value="Data-Science">Data Science</option>
+            <option value="Mechanical-Engineering">Mechanical Engineering</option>
+            <option value="mechatronics-engineering">mechatronics engineering</option>
+            <option value="Cyber-Security">Cyber Security</option>
+        </select>
+        </div>
+        <div id=""><br><br>
+            <label id="job-label"><b>College Semester:</b></label><br>
+            <input type="radio" class="radio-inline" name="Semester" value="Semester" checked>1<br>
+            <input type="radio" class="radio-inline" name="Semester" value="Semester" checked>2<br>
+            <input type="radio" class="radio-inline" name="Semester" value="Semester" checked>3<br>
+            <input type="radio" class="radio-inline" name="Semester" value="Semester" checked>4<br>
+            <input type="radio" class="radio-inline" name="Semester" value="Semester" checked>5<br>
+            <input type="radio" class="radio-inline" name="Semester" value="Semester" checked>6<br>
+            <input type="radio" class="radio-inline" name="Semester" value="Semester" checked>7<br>
+            <input type="radio" class="radio-inline" name="Semester" value="Semester" checked>8<br>
+            <input type="radio" class="radio-inline" name="Semester" value="Semester" checked>other<br>
+        </div>
+        <div id="button-area"><br><br>
+            <label id="Programming">Programming language you are expert at:</label><br>
+            <input type="checkbox" name="Programming-1" value="Python" > Python<br>
+            <input type="checkbox" name="Programming-2" value="Java" > Java<br>
+            <input type="checkbox" name="Programming-3" value="C" > C<br>
+            <input type="checkbox" name="Programming-4" value="C++" > C++<br>
+            <input type="checkbox" name="Programming-5" value="C#" > C#<br>
+            <input type="checkbox" name="Programming-6" value="Ruby" > Ruby<br>
+            <input type="checkbox" name="Programming-7" value="HTML" > HTML<br>
+            <input type="checkbox" name="Programming-8" value="Go" > Go<br>
+            <input type="checkbox" name="Programming-9" value="Pascal" > Pascal<br>
+        </div>
+        <div>
+            <label id="Dream">Tell us about your dreams related to programming?</label>
+            <textarea style= height:120px; class="form" placeholder="Please feel free to write a review..."></textarea>
+            <input id="submit" type="submit" class="form">
+        </div>
+        </form>
+    </div>
+</body>
