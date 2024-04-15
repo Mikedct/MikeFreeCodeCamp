@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7390E9;
+}
+  
+header {
+    background-color: #F69669;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+  
+#header-img {
+    width: 100px;
+    height: auto;
+}
+  
+nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+  
+.nav-link:hover {
+    background-color: #ddd;
+}
+  
+/* Container Styles */
+#container {
+    padding: 5rem 0;
+}
+  
+section {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+  
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+  
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+  
+iframe {
+    width: 50%; /* Responsive using percentages */
+    margin: 0 auto;
+}
+  
+/* Form Styles */
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+  
+#email {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+}
+  
+#submit {
+    background-color: #F69669;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+  
+/* Feature Styles */
+.feature {
+    display: inline-block;
+    margin: 1rem;
+    text-align: left;
+    background-color: #F69669;
+}
+  
+.feature div {
+    padding: 1rem;
+    border: 1px solid #F69669;
+    border-radius: 4px;
+}
+  
+/* Pricing Styles */
+.price-box {
+    display: inline-block;
+    margin: 1rem;
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #F69669;
+    border-radius: 4px;
+    background-color: #F69669;
+}
+  
+.price-box h3 {
+    margin-bottom: 1rem;
+}
+  
+.price-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+  
+.price-box p {
+    margin-bottom: 1rem;
+}
+  
+.price-box a.Button {
+    background-color: #7390E9;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+/* Footer Styles */
+footer {
+    background-color: #ddd;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+  
+footer a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 1rem;
+}
+  
+.my-name {
+    margin-bottom: 0.5rem;
+}
+  
