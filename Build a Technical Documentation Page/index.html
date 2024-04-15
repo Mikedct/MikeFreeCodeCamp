@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Algebra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <nav id="navbar">
+            <header>Linear Algebra</header>
+            <ul>
+                <a class="nav-link" href="#introduction"><li>Introduction</li></a>
+                <a class="nav-link" href="#linear_algebra_topics"><li>Linear Algebra Topics</li></a>
+                <a class="nav-link" href="#vector_spaces"><li>Vector Spaces</li></a>
+                <a class="nav-link" href="#linear_function"><li>Linear Function</li></a>
+                <a class="nav-link" href="#linear_algebra_matrix"><li>Linear Algebra Matrix</li></a>
+                <a class="nav-link" href="#numerical_linear_algebra"><li>Numerical Linear Algebra</li></a>
+                <a class="nav-link" href="#linear_algebra_applications"><li>Linear Algebra Applications</li></a>
+                <a class="nav-link" href="#practice_problems_on_linear_algebra"><li>Practice Problems on Linear Algebra</li></a>
+                <a class="nav-link" href="#reference"><li>reference</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <code>
+                <p>Linear algebra is the study of linear combinations. It is the study of vector spaces, lines and planes, and some mappings that are required to perform the linear transformations.  
+                    It includes vectors, matrices and linear functions. It is the study of linear sets of equations and its transformation properties.
+                </p>
+            </code>
+        </section>
+
+        <section class="main-section" id="linear_algebra_topics">
+            <header>Linear Algebra Topics</header>
+            <code>
+                <p>The most important topics covered in the linear algebra includes:</p>
+                <ul>
+                    <li>Euclidean vector spaces</li>
+                    <li>Eigenvalues and eigenvectors</li>
+                    <li>Orthogonal matrices</li>
+                    <li>Linear transformations</li>
+                    <li>Projections</li>
+                    <li>Solving systems of equations with matrices</li>
+                    <li>Mathematical operations with matrices (i.e. addition, multiplication)</li>
+                    <li>Matrix inverses and determinants</li>
+                    <li>Positive-definite matrices</li>
+                    <li>Singular value decomposition</li>
+                    <li>Linear dependence and independence</li>
+                  </ul>
+            </code>
+        </section>
+
+        <section class="main-section" id="vector_spaces">
+            <header>Vector Spaces</header>
+            <code>
+                <p>As we know that linear algebra deals with the study of vector spaces and the linear transformations between them. 
+                    By the definition of vector, it is a physical quantity that has both magnitude and direction. 
+                    A vector space is defined as the collection of objects called vectors, which may be added together and multiplied (i.e. scaled) by numbers, called scalars. 
+                    Generally, real numbers are taken as scalars, but there exist vector spaces with scalar multiplication 
+                    by non-real numbers, i.e. complex numbers, or naturally any field. </p>
+
+                <p>
+                    The operations such as vector addition and scalar multiplication must satisfy specific requirements, called vector axioms. 
+                    Generally, the terms real vector space and complex vector space are used to define that the scalars are real or complex numbers, respectively.
+                </p>
+
+                <p>Suppose V be any vector space with elements a, b, c and scalars m, n over a field F, then the vector axioms are given by:
+
+                    Commutative of addition: a + b = b + a
+                    Associativity of addition: a + (b + c) = (a + b) + c
+                    Additive identity: a + 0 = 0 + a = a, where 0 is an element in V called zero vector.
+                    Additive inverse: a + (-a) + (-a) + a = 0, a, -a belongs to V.
+                </p>
+
+                <p>These four axioms define that the vector space V is an abelian group under addition.</p>
+
+                <p>Other axioms include distributivity of scalar multiplication with respect to vector addition and field addition, identity element of scalar multiplication and so on.</p>
+
+                <p>For example, m(a) = ma; n(a + b) = na + nb</p>
+
+                <p>An element of a specific vector space may have different characteristics. For example, the elements can be a sequence, a function, a polynomial or a matrix. 
+                    Linear algebra is affected by those properties of such things that are common or familiar to all vector spaces.</p>
+
+                <p>A linear map can be written for two given vector spaces namely V and W over a field F. This is sometimes referred to as linear transformation or mapping of vector spaces. Thus, it is given by:</p>
+                <p>T: V → W
+
+                    This allows us to write the addition of scalar multiplication of elements such as:
+                    
+                    T(a + b) = T(a) + T(b)
+                    
+                    T(ma) = mT(a)</p>
+            </code>
+        </section>
+
+        <section class="main-section" id="linear_function">
+            <header>Linear Function</header>
+            <code>
+                <p>A linear function is an algebraic equation in which each term is either a constant or the product of a constant and a single independent variable of power 1. 
+                    In linear algebra, vectors are taken while forming linear functions. Some of the examples of the kinds of vectors that can be rephrased in terms of the function of vectors.</p>
+                <p>Mathematically, linear function is defined as:
+
+                    A function L : Rn → Rm is linear if
+                    
+                    (i) L(x + y) = L(x) + L(y)
+                    
+                    (ii) L(αx) = αL(x)
+                    
+                    for all x, y ∈ Rn, α ∈ R</p>
+            </code>
+        </section>
+
+        <section class="main-section" id="linear_algebra_matrix">
+            <header>Linear Algebra Matrix</header>
+            <code>
+                <p>Matrices are linear functions of a certain kind. 
+                    Matrix is the result of organizing information related to 
+                    certain linear functions. Matrix almost appears in linear 
+                    algebra because it is the central information of linear algebra. </p>
+                <p>Mathematically, this relation can be defined as follows.
+
+                    A is an m × n matrix, then we get a linear function L : Rn → Rm by defining
+                    
+                    L(x) = Ax
+                    
+                    or 
+                    
+                    Ax = B
+                    
+                    Go through the example given below to understand this mapping in detail.
+                </p>
+            </code>
+        </section>
+
+        <section class="main-section" id="numerical_linear_algebra">
+            <header>Numerical Linear Algebra</header>
+            <code>
+                <p>Numerical linear algebra is also known as the applied linear algebra. 
+                    Applied linear algebra deals with the study of how matrix operations 
+                    can be used to create computer algorithms, which helps to solve the 
+                    problems in continuous mathematics with efficiency and accuracy.  
+                    In numerical linear algebra, many matrix decomposition methods are 
+                    used to find the solutions for common linear algebraic problems like 
+                    least-square optimization, locating Eigenvalues, and solving systems 
+                    of linear equations. Some of the matrix decomposition methods in 
+                    numerical linear algebra include Eigen decomposition, Single value 
+                    decomposition, QR factorization and so on.</p>
+            </code>
+        </section>
+
+        <section class="main-section" id="linear_algebra_applications">
+            <header>Linear Algebra Applications</header>
+            <code>
+                <p>Here, some of the linear algebra applications are given as:</p>
+                <ul>
+                    <li>Ranking in Search Engines – One of the most important applications of linear algebra 
+                        is in the creation of Google. The most complicated ranking algorithm 
+                        is created with the help of linear algebra.</li>
+                    <li>Signal Analysis – It is massively used in encoding, analyzing 
+                        and manipulating the signals that can be either audio, video or images etc.</li>
+                    <li>
+                        Linear Programming – Optimization is an important application of linear algebra 
+                        which is widely used in the field of linear programming.
+                    </li>
+                    <li>
+                        Error-Correcting Codes – It is used in coding theory. If encoded data is tampered 
+                        with a little bit and with the help of linear algebra it should 
+                        be recovered. One such important error-correcting code is called hamming code
+                    </li>
+                    <li>
+                        Prediction – Predictions of some objects should be found using linear models 
+                        which are developed using linear algebra.
+                    </li>
+                    <li>
+                        Facial Recognition- An automated facial recognition technology that uses linear 
+                        algebraic expression is called principal component analysis.
+                    </li>
+                    <li>
+                        Graphics- An important part of graphics is projecting a 3-dimensional scene on 
+                        a 2-dimensional screen which is handled only by linear maps which are explained by linear algebra.
+                    </li>
+                </ul>
+            </code>
+        </section>
+
+        <section class="main-section" id="practice_problems_on_linear_algebra">
+            <header>Practice Problems on Linear Algebra</header>
+            <code>
+                <ul>
+                    <li>
+                        Solve the following pair of linear equations using the substitution method: 7x-15y=2, x+2y=3.
+                    </li>
+                    <li>
+                        Solve the equations 2x+3y=11, and 2x-4y=-24. Also, determine the value of “m” for which y=mx+3
+                    </li>
+                    <li>
+                        Solve the following equations using the substitution method and elimination methods: 3x + 4y = 10 and 2x – 2y = 2.
+                    </li>
+                </ul>
+                <p>For more related codes on the system of linear equations, register with BYJU’S – The Learning app and watch interactive videos</p>
+            </code>
+        </section>
+
+        <section class="main-section" id="reference">
+            <header>Reference</header>
+            <code class="main-code">
+                <ul>
+                    <li>All the documentation in this page is taken from <a
+                        href="https://byjus.com/maths/linear-algebra/">Link</a></li>
+                </ul>
+            </code>
+        </section>
+    </main>
+</body>
+</html>

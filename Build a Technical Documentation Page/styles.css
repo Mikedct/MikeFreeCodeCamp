@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+}
+  
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+}
+  
+/* Header styles */
+#main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    min-width: 280px;
+    max-width: 300px;
+    background-color: #333;
+    color: #fff;
+}
+  
+#navbar {
+    height: 100%;
+    border-right: 2.5px solid #fff;
+}
+
+
+#navbar > h1,
+#navbar ul li a {
+    font-size: 1.5rem; 
+    text-align: center; 
+    padding: 3rem 0; 
+}
+
+#navbar ul {
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 90%;
+    list-style: none;
+}
+  
+#navbar ul li {
+    border: 1.3px solid #fff;
+    background-color: #222;
+}
+  
+#navbar ul li a {
+    display: block;
+    text-align: left;
+    padding: .8rem 1rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+#main-doc {
+    position: absolute;
+    left: 320px;
+    padding: 2rem 1rem;
+    background-color: #fff;
+}
+  
+#main-doc .main-section {
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+  
+#main-doc .main-section header,
+#main-doc .main-section .main-article {
+    font-weight: bold;
+}
+  
+#main-doc .main-section .main-article {
+    padding-left: 1.5rem;
+    color: #222;
+}
+  
+#main-doc .main-section .main-article p {
+    margin-bottom: 1rem;
+}
+  
+#main-doc .main-section .main-article ul {
+    margin: 1.3rem 0;
+}
+  
+#main-doc .main-section .main-article ul li {
+    margin-bottom: 1rem;
+}
+  
+#main-doc .main-section .main-article code {
+    display: block;
+    padding: 1.5rem;
+    text-align: left;
+    background-color: #ddd;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-section {
+      margin-bottom: 2rem;
+    }
+    .nav-link {
+      display: block;
+      padding: 1rem;
+    }
+}
